@@ -322,7 +322,10 @@ while($region = mysqli_fetch_array($sql))
                 ?>
 
                 <td><div class="free" data-toggle="tooltip" data-placement="top" data-html="true" title="<?php  echo $title; ?>"></div></td>
-                <?php $x++; }}} $y--; } ?>
+                <?php $x++; }}} $y--; } 
+                mysqli_free_result($sql);
+                mysqli_close($db);
+                ?>
             </tr>
         </table>
     </div>
