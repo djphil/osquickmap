@@ -321,7 +321,7 @@ while($region = mysqli_fetch_array($sql))
                     $tips .= '<br />Status: '.$lang_free;
                 ?>
 
-                <td><div class="free" data-toggle="tooltip" data-placement="top" data-html="true" title="<?php  echo $title; ?>"></div></td>
+                <td><div class="free" data-toggle="tooltip" data-placement="top" data-html="true" title="<?php  echo $tips; ?>"></div></td>
                 <?php $x++; }}} $y--; } 
                 mysqli_free_result($sql);
                 mysqli_close($db);
