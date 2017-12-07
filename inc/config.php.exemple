@@ -1,0 +1,41 @@
+<?php
+ini_set('magic_quotes_gpc', 0);
+ini_set('display_errors', 1);
+error_reporting(E_ALL);
+
+$title = "OpenSim Quick Map";
+$version = "0.1";
+
+$dbhost = "localhost";
+$dbuser = "root";
+$dbpass = "<DB_PASSWORD>";
+$dbname = "opensim";
+
+$theme = TRUE;
+$water = FALSE;
+
+$free = "#25889e";
+$main = "#c32946";
+$single = "#7bbf23";
+$var = "#528307";
+
+$mini = "18px";
+$maxi = "32px";
+$margin = "3px";
+$rounded = "4px";
+
+$center_x = "10000";
+$center_y = "10000";
+
+$north = "Nord";
+$south = "Sud";
+$west = "Ouest";
+$east = "Est";
+$center = "Center";
+
+$lang_free = "Free";
+$lang_main = "Central";
+$lang_single = "Busy (Single)";
+$lang_var = "Busy (Var)";
+
+?>
