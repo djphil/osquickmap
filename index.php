@@ -47,8 +47,8 @@ if ($grid_x == 0) {$grid_x = $center_x;}
 if ($grid_y == 0) {$grid_y = $center_y;}
 if ($grid_y <= 30) {$grid_y = "100";}
 if ($grid_x <= 30) {$grid_x = "100";}
-if ($grid_x >=99999) {$grid_x = $center_x;}
-if ($grid_y >=99999) {$grid_y = $center_y;}
+if ($grid_x >= 99999) {$grid_x = $center_x;}
+if ($grid_y >= 99999) {$grid_y = $center_y;}
 
 $start_x = $grid_x - 12;
 $start_y = $grid_y + 8;
