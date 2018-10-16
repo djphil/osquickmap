@@ -9,7 +9,7 @@ $txt_south = "Zuid";
 $txt_west = "West";
 $txt_east = "Oost";
 $txt_center = "Center";
-$txt_search = "Suche";
+$txt_search = "Zoeken";
 
 /* Legend */
 $txt_free = "Beschikbaar";
