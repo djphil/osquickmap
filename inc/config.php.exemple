@@ -35,6 +35,7 @@ $translator = true;
 $languages = array(
     "fr" => "Français",
     "en" => "English",
-    "nl" => "Dutch"
+    "nl" => "Dutch",
+    "de" => "German"
 );
 ?>
