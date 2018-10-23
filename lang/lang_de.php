@@ -1,7 +1,7 @@
 <?php if (basename($_SERVER['PHP_SELF']) == basename(__FILE__)) {die('Access denied ...');} ?>
 <?php
-$language_code='de';
-$actual_language='German';
+$language_code = "de";
+$actual_language = "German";
 
 /* Buttons */
 $txt_north = "Nord";
